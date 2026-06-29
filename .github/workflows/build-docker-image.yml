@@ -18,7 +18,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          ./container/server/build.sh
+          bash ./container/server/build.sh
 
       - name: Tag Docker Image
         run: |
